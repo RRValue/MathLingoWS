@@ -1,0 +1,3 @@
+[submodule "math_lingo_impl"]
+	path = math_lingo_impl
+	url = ../MathLingo_Impl.git
