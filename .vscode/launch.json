@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/target/debug/deps/math_lingo_impl-93b50762867dc759.exe",
+            "args": [
+                "test",
+                "--",
+                "--nocapture"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "console": true,
+            "sourceFileMap": 
+                { "/rustc/11f32b73e0dc9287e305b5b9980d24aecdc8c17f/library" : "${userHome}\\.rustup\\toolchains\\nightly-x86_64-pc-windows-msvc\\lib\\rustlib\\src\\rust\\" }
+        }
+    ]
+}
