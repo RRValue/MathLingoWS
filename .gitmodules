@@ -4,3 +4,6 @@
 [submodule "math_lingo"]
 	path = math_lingo
 	url = ..math_lingo.git
+[submodule "math_user"]
+	path = math_user
+	url = ../math_user.git
